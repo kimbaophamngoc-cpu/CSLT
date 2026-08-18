@@ -1,10 +1,10 @@
 ﻿using System;
 
 namespace CSLT.s2
-{ 
+{
     internal class Exercise_1
     {
-	    public static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int number1 = 10, number2 = 12;
 
@@ -45,19 +45,19 @@ namespace CSLT.s2
 
             //8.to Calculate Area of Circle
             Console.Write("Enter r: ");
-            double r = Convert.ToDouble(Console.ReadLine());
+            double r = double.Parse(Console.ReadLine());
             double area = Math.PI * r * r;
             Console.WriteLine($"Area of circle with radius {r} is: {area}");
 
             //9.to Calculate Area of Square
             Console.Write("Enter side length: ");
-            double side = Convert.ToDouble(Console.ReadLine());
-            double areaSquare = side * side;
+            float side = float.Parse(Console.ReadLine());
+            float areaSquare = side * side;
             Console.WriteLine($"Area of square with side length {side} is: {areaSquare}");
 
             //10.to convert days to years, weeks and days
             Console.Write("Enter number of days: ");
-            int days = Convert.ToInt32(Console.ReadLine());
+            int days = int.Parse(Console.ReadLine());
             int years = days / 365;
             int weeks = (days % 365) / 7;
             int remainingDays = (days % 365) % 7;
