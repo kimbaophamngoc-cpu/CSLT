@@ -35,8 +35,8 @@ namespace CSLT.s2
             Console.WriteLine($"{celsius}°C = {fahrenheit}°F");
 
             //6.to find the Size of data types
-            Console.WriteLine($"Size of int: {sizeof(int)} bytes");
-            Console.WriteLine($"Size of double: {sizeof(float)} bytes");
+            Console.WriteLine($"Size of double data type is {sizeof(double)}");
+            Console.WriteLine($"Size of int data is {sizeof(int)}");
 
             //7.to Print ASCII Value(tip: read character, print number of this char)
             Console.Write("Enter a character: ");
