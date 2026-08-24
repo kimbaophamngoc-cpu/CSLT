@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSLT.s2.Exercise_1</StartupObject>
+    <StartupObject>CSLT.s4.Exercise01_Operators</StartupObject>
   </PropertyGroup>
 
 </Project>
