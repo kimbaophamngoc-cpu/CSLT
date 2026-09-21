@@ -336,9 +336,15 @@ namespace CSLT.s6
             int y9 = int.Parse(Console.ReadLine());
             Console.WriteLine("x^y = " + TinhLuyThua(x9, y9));
 
-            // Bài 10
-            Console.WriteLine("Bài 10: Nhập mảng (cách nhau bởi dấu cách)");
-            int[] arr10 = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            // Bài 10 (Nhập mảng thủ công trực tiếp trong Main)
+            Console.WriteLine("Bài 10: Nhập số lượng phần tử mảng:");
+            int n10 = int.Parse(Console.ReadLine());
+            int[] arr10 = new int[n10];
+            for (int i = 0; i < n10; i++)
+            {
+                Console.Write($"arr10[{i}] = ");
+                arr10[i] = int.Parse(Console.ReadLine());
+            }
             Console.WriteLine("Trung bình = " + TinhTrungBinh(arr10));
 
             // Bài 11
@@ -351,9 +357,15 @@ namespace CSLT.s6
             double c = double.Parse(Console.ReadLine());
             Console.WriteLine("Độ F = " + CelsiusToFahrenheit(c));
 
-            // Bài 13
-            Console.WriteLine("Bài 13: Nhập mảng");
-            int[] arr13 = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            // Bài 13 (Nhập mảng thủ công trực tiếp trong Main)
+            Console.WriteLine("Bài 13: Nhập số lượng phần tử mảng:");
+            int n13 = int.Parse(Console.ReadLine());
+            int[] arr13 = new int[n13];
+            for (int i = 0; i < n13; i++)
+            {
+                Console.Write($"arr13[{i}] = ");
+                arr13[i] = int.Parse(Console.ReadLine());
+            }
             Console.WriteLine("Min = " + TimMin(arr13));
 
             // Bài 14
@@ -361,9 +373,16 @@ namespace CSLT.s6
             int n14 = int.Parse(Console.ReadLine());
             Console.WriteLine("Tổng chữ số = " + TongCacChuSo(n14));
 
-            // Bài 15
-            Console.WriteLine("Bài 15: Nhập mảng");
-            int[] arr15 = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            // Bài 15 (Nhập mảng thủ công trực tiếp trong Main)
+            Console.WriteLine("Bài 15: Nhập số lượng phần tử mảng:");
+            int n15 = int.Parse(Console.ReadLine());
+            int[] arr15 = new int[n15];
+            for (int i = 0; i < n15; i++)
+            {
+                Console.Write($"arr15[{i}] = ");
+                arr15[i] = int.Parse(Console.ReadLine());
+            }
+            Console.Write("Mảng sau khi sắp xếp: ");
             SapXepMang(arr15);
 
             // Bài 16
